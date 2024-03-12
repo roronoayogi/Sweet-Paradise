@@ -1,126 +1,140 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+    <title>Recipe Site</title>
+</head>
+<body class="page">
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <p>SWEET PARADISE</p>
+                </li>
+                <li>
+                    <ul id="page_link">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="mailto:">CONTACT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-#navbar{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 3;
-    background: rgb(68,209,151);
-    background: linear-gradient(90deg, rgba(68,209,151,1) 0%, rgba(43,26,143,1) 29%, rgba(55,5,75,1) 100%);
-    color: lavender;
-    border-bottom: 2px solid black;
+    <body>
+        <main>
+            <div class="container">
+                <div class="items">
+                    <div class="imag" class="hov">
+                        <img src="gulaab.webp" >
+                    </div>
+                    <div class="Content">
+                        <h2>
+                            GULAAB JAMUN
+                        </h2>
+                        <h3>
+                            Items Required
+                        </h3>
+                        <ul>
+                            <li>125 grams khoya or mawa</li>
+                            <li>2% tablespoons Maida</li>
+                            <li>¼ teaspoon baking powder</li>
+                            <li>¼ teaspoon cardamom powder</li>
+                            <li>2 to 4 tablespoons milk or water</li>
+                            <li>2 tablespoons paneer</li>
+                            <li>Oil or ghee as needed for frying</li>
+                            <li>14 to 1 ½ cups sugar</li>
+                            <li>3/4 cup water</li>
+                            <li>½ teaspoon cardamom powder</li>
+                            <li>1 teaspoon rose water</li>
+                            <li>1½ teaspoon lemon juice</li>
+                        </ul>
+                    </div>
+                </div>
 
-    
-        
-        list-style: none;
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 10%;
-    }
-}
-#navbar ul{
-        height: 80px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-}
-#navbar li{
-        padding-left: 3%;
-        padding-right: 3%;
-        color: lavender;
-}
+                <div class="items">
+                    <div class="Content">
+                        <h2>
+                            MILK CAKE
+                        </h2>
+                        <h3>
+                            Items Required
+                        </h3>
+                        <ul>
+                            <li>1 ½ cups all-purpose flour</li>
+                            <li>1 teaspoon baking powder</li>
+                            <li>½ cup unsalted butter</li>
+                            <li>1 cup white sugar</li>
+                            <li>5 eggs</li>
+                            <li>½ teaspoon vanilla extract</li>
+                            <li>2 cups whole milk</li>
+                            <li>1 (14 ounce) can sweetened condensed milk</li>
+                            <li>1 (12 fluid ounce) can evaporated milk</li>
+                            <li>1 ½ cups heavy whipping cream</li>
+                            <li>1 cup white sugar</li>
+                            <li>1 teaspoon vanilla extract</li>
+                        </ul>
+                    </div>
+                    <div class="imag" class="hov">
+                        <img src="Milk_cake.webp">
+                    </div>
+                </div>
 
-#navbar ul p{
-        font-size: 30px;
-}
+                <div class="items">
+                    <div class="imag" class="hov">
+                        <img src="Kaju.webp">
+                    </div>
+                    <div class="Content">
+                        <h2>
+                            KAJU KATLI
+                        </h2>
+                        <h3>
+                            Items Required
+                        </h3>
+                        <ul>
+                            <li>1/2 cup powdered cashews</li>
+                            <li>1/2 cup water</li>
+                            <li>1/2 tablespoon ghee</li>
+                            <li>¼1 cup sugar</li>
+                            <li>4 inches silver varkr</li>
+                            <li>1 teaspoon powdered green cardamom</li>
+                        </ul>
+                    </div>
+                </div>
 
 
+                <div class="items">
+                    <div class="Content">
+                        <h2>
+                            RAS MALAAI
+                        </h2>
+                        <h3>
+                            Items Required
+                        </h3>
+                        <ul>
+                            <li>2 litre milk</li>
+                            <li>1/2 teaspoon saffron</li>
+                            <li>1 tablespoon sliced,chopped pistachios</li>
+                            <li>2 tablespoon water</li>
+                            <li>1 1/2 litre boiling water</li>
+                            <li>3 cup sugar</li>
+                            <li>1 tablespoon sliced,chopped almonds</li>
+                            <li>1/2 teaspoon powdered green cardamom</li>
+                            <li>2 tablespoon lime juice</li>
+                        </ul>
+                    </div>
+                    <div class="imag" id="hov">
+                        <img src="Ras_malaai.webp" >
+                    </div>
+                </div>
+                </div>
+            </div>
 
-#page_link{
-    li{
-        color: black;
-        display: block;
-        a{
-            color: lavender;
-            transition: all 0.5s ease-out 0ms;
-        }
-        a:hover{
-            color: #b2e2e4;
-        }
-    }
-}
-
-.container{
-    margin-top: 80px;
-    background: rgb(148,224,79);
-    background: linear-gradient(0deg, rgba(148,224,79,0.7204131652661064) 0%, rgba(183,239,169,0.3982843137254902) 100%);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.items{
-    background:beige;
-    margin: 30px;
-    box-shadow: 10px 10px 30px #000000;
-    width: 70%;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    .Content{
-        border-radius: 10px;
-        box-shadow: 5px 5px 3px black;
-        background: #f2f3f6;
-        padding: 50px;
-        border: 1px solid black;
-        transition: height 0.5s ease-out 2s,width 0.5s ease-out 2s,transform 1s ease-out 0s;
-        h2{
-            font-size: 30px;
-
-        }
-        h3{
-            font-size: 20px;
-            padding-bottom: 10px;;
-        }
-    }
-
-    .Content:hover{
-        
-        transform: rotate(360deg);
-    }
-
-    .imag{
-        height: 400px;
-        width: 267px;
-        margin: 30px;
-        border-radius: 20px;
-        box-shadow: 10px 10px 8px #888888;
-        img{
-            height: 100%;
-            width: 100%;
-            border-radius: 20px;
-        }
-        transition: all 0.5s ease-out 0s;
-    }
-
-    .imag:hover{
-        transform: scale(1.05);
-        box-shadow: 10px 10px 8px #b2e2e4;
-    }
-
-    ul{
-        list-style: circle;
-        li{
-            line-height: 20px;
-        }
-    }
-    
-}
+        </main>
+    </body>
+</body>
+</html>
