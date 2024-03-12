@@ -14,27 +14,29 @@
     color: lavender;
     border-bottom: 2px solid black;
 
-    ul{
-        height: 80px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        p{
-            font-size: 30px;
-        }
-        li{
-            padding-left: 3%;
-            padding-right: 3%;
-            color: lavender;
-        }
+    
+        
         list-style: none;
         justify-content: space-between;
         padding-left: 5%;
         padding-right: 10%;
     }
+}
+#navbar ul{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+#navbar li{
+        padding-left: 3%;
+        padding-right: 3%;
+        color: lavender;
+}
 
-
+#navbar ul p{
+        font-size: 30px;
 }
 
 
